@@ -1,0 +1,26 @@
+{
+  "name": "ts-nectar-cli",
+  "version": "1.0.0",
+  "description": "TS Nectar React CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oleh-polishchuk/nectar.git"
+  },
+  "bin": {
+    "nectar": "./index.js",
+    "nectar-cli": "./index.js"
+  },
+  "dependencies": {
+    "xregexp": "4.2.4",
+    "yargs": "13.2.2"
+  },
+  "devDependencies": {
+    "jest": "25.1.0"
+  }
+}
