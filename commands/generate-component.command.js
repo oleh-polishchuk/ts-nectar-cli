@@ -18,8 +18,8 @@ module.exports.run = (name = "", options = {}) => {
         componentsDir = options.path;
     }
     const componentDir = path.resolve(componentsDir, componentName);
-    const componentPath = path.resolve(componentDir, `${componentName}.ts`);
-    const indexPath = path.resolve(componentDir, 'index.ts');
+    const componentPath = path.resolve(componentDir, `${componentName}.tsx`);
+    const indexPath = path.resolve(componentDir, 'index.js');
     const stylePath = path.resolve(componentDir, 'style.scss');
     const testPath = path.resolve(componentDir, 'index.snapshot.test.js');
 
@@ -48,6 +48,7 @@ module.exports.run = (name = "", options = {}) => {
 
     execSync(`cd ${projectDir} && git add .`);
 
+    console.log(`Created ${indexPath}`);
     console.log(`Created ${componentPath}`);
     console.log(`Created ${stylePath}`);
     console.log(`Created ${testPath}`);

@@ -1,4 +1,4 @@
-nectar
+TS Nectar CLI
 ======
 
 The Nectar React CLI is a command-line interface tool that you use to initialize, develop, and maintain React application.
@@ -25,8 +25,6 @@ $ npm install -g nectar-cli
 * `nectar init --config=/Users/olehpolishchuk/.nectar_config`
 * `nectar reinit --config=/Users/olehpolishchuk/.nectar_config`
 * `nectar generate component HomeSlider`
-* `nectar generate component HomeSlider --theme=true`
-* `nectar generate component HomeSlider --scss=false`
 * `nectar remove component HomeSlider`
 * `nectar generate page Home`
 
